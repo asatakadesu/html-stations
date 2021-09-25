@@ -1,0 +1,20 @@
+body{
+    background-color: #fff;
+}
+
+title{
+    color: #282828;
+    font-size: 14px;
+}
+
+div.p{
+    color: #282828;
+    font-size: 14px;
+}
+
+div.img{
+    width: 288px;
+    height: 182px;
+    padding: 125px 8px;
+    margin-bottom: 103px;
+}
