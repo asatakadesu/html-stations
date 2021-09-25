@@ -1,20 +1,26 @@
-body{
-    background-color: #fff;
+.card{
+    background-color: #ffffff;
 }
 
-title{
+.card__title{
     color: #282828;
     font-size: 14px;
 }
 
-div.p{
+.card__description{
     color: #282828;
     font-size: 14px;
 }
 
-div.img{
+.card__img-top{
     width: 288px;
     height: 182px;
-    padding: 125px 8px;
     margin-bottom: 103px;
+}
+
+.card{
+    padding-top: 125px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 103px;
 }
