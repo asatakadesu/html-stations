@@ -14,7 +14,7 @@ function buildFullName(data) {
     // 氏名がわかるようにしつつ、半角スペースで繋いでください。
     // またtest配列のそれぞれのオブジェクトに対して、full_nameのプロパティが追加されるように実装すること
     const fullName = deta.family_name + ' ' + deta.first_name;
-    data['full_name'] = fullName
+    data['fullName'] = fullName
     return data
 }
 
