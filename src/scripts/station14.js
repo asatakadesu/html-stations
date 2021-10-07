@@ -18,6 +18,9 @@ function buildFullName(data) {
     return data
 }
 
+// common.jsの6行目をいじってみる
+// スペルミス
+
 
     // first try
     // const test = [
