@@ -23,3 +23,18 @@ function test(data2) {
     }, 3000);
   });
 }
+
+// const promise の書き方でもやってみる
+function test2(data2) {
+
+  return new Promise(function(resolve) {
+    setTimeout(function(){
+      data2.map( (data)=> { 
+        const buildFullName = data.family_name + ' ' + data.first_name
+        data['full_name'] = buildFullName
+        // return data
+      });
+      resolve(data2);
+    }, 3000);
+  });
+}
